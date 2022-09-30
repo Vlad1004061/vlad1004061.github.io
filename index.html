@@ -1,11 +1,8 @@
-<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
 <!DOCTYPE html>
-<!-- Оболочка документа, указываем язык содержимого -->
-<html lang="ru">
-	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+<html lang="en">
 	<head>
 		<!-- Заголовок страницы в браузере -->
-		<title>Button</title>
+		<title>Adaptive</title>
 		<!-- Подключаем CSS -->
 		<link rel="stylesheet" href="css/style.css">
 		<!-- Кодировка страницы -->
@@ -13,14 +10,143 @@
 		<!-- Адаптив -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale-1.0, user-scale=0">
 	</head>
-	<!-- Отображаемое тело страницы -->
 	<body>
 		<div class="wrapper">
-			<a href="" class="wave-btn">
-				<span class="wave-btn__text">Кнопка</span>
-				<span class="wave-btn__waves"></span>
-			</a>
+			<div id="header" class="header">
+				<div class="logo">
+					<img src="img/Logo.png" alt="" class="logo__img">
+				</div>
+				<div class="header__tittle">
+					<h1 class="tittle__h1">Clear, smart, attractive design</h1>
+					<span class="tittle__span">for your app, logo, website</span>
+				</div>
+				<div class="line line_white"></div>
+				<div class="header__navigator">
+					<a href="#about" class="header__button button">READ MORE</a>
+					<a href="#about" class="header__arrow"></a>
+				</div>
+			</div>
+			<div id="about" class="about">
+				<div class="conteiner">
+					<div class="menu">
+						<a href="#header" class="menu__button">HOME</a>
+						<a href="#about" class="menu__button">ABOUT ME</a>
+						<a href="#portfolio" class="menu__button">PORTFOLIO</a>
+						<a href="#contact" class="menu__button">CONTACT</a>
+					</div>
+					<div class="about__tittle">
+						<h2 class="tittle about__tittle_h2">ABOUT</h2>
+						<div class="line line_black"></div>
+						<div class="tittle__subtittle">We specialize in contemporary, functional, and stunning websites with design that really brings that "WOW" factor. <br> In our design process, we make sure to stay one step ahead of the latest trends, <br> never forgetting to abide by key web standards.
+						</div>
+					</div>
+					<div class="column">
+						<div class="column__content">
+							<div class="column__icon">
+								<img src="img/web.png" alt="pictures" class="column__img">
+							</div>
+							<span class="column__span">WEB</span>
+							<p class="column__text">We tend to deliver unique and functional design, through innovation and creativity.</p>
+						</div>
+						<div class="column__content">
+							<div class="column__icon">
+							<img src="img/ios.png" alt="pictures" class="column__img">
+							</div>
+							<span class="column__span">iOS AND ANDROID</span>
+							<p class="column__text column__text_2">We seek to bring new businesses and customers closer together through valuable insights and proper targeting.</p>
+						</div>
+						<div class="column__content">
+							<div class="column__icon">
+							<img src="img/marketing.png" alt="pictures" class="column__img column__img_3">
+							</div>
+							<span class="column__span">MARKETING</span>
+							<p class="column__text column__text_3">We’ll help you establish the right goals and build the right paths. Success depends on setting the right intention.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="portfolio" class="portfolio">
+				<div class="portfolio__tittle">
+					<div class="tittle portfolio__tittle_h2">PORTFOLIO</div>
+					<div class="line line_black"></div>
+					<div class="menu portfolio__menu">
+						<a href="" class="menu__button">ALL</a>
+						<a href="" class="menu__button">WEB</a>
+						<a href="" class="menu__button">APPS</a>
+						<a href="" class="menu__button">OTHER</a>
+					</div>
+				</div>
+				<div class="portfolio__items">
+					<a class="rortfolio__a" href="https://vlad1004061.github.io/burger/"><div class="contents">Burger menu</div></a>
+					<a href=""><div class="contents error">in process</div></a>
+					<a href=""><div class="contents error">in process</div></a>
+					<a href=""><div class="contents error">in process</div></a>
+					<a href=""><div class="contents error">in process</div></a>
+					<a href=""><div class="contents error">in process</div></a>
+				</div>
+				<a href="" class="portfolio__button button">READ MORE</a>
+			</div>
+			<div class="partners">
+				<div class="partners__wrapper">
+					<div class="partners__tittle">
+						Our partners
+					</div>
+					<div class="rartners__logo">
+						<div class="partners__img_1"></div>
+						<div class="partners__img_2"></div>
+						<div class="partners__img_3"></div>
+						<div class="partners__img_4"></div>
+					</div>
+				</div>
+			</div>
+			<div id="contact" class="contact">
+				<div class="contact__tittle">
+					<div class="tittle contact__tittle_h2">CONTACT</div>
+					<div class="line line_black"></div>
+				</div>
+				<div class="contact__flex">
+					<form action="#" method="get" class="contact__form">
+						<div class="name">
+							<span class="contact__text">YOUR NAME</span>
+							<input type="name" class="name__input input">
+						</div>
+						<div class="mail">
+							<span class="contact__text">YOUR E-MAIL</span>
+							<input type="mail" class="mail__input input">
+						</div>
+						<div class="text">
+							<span class="contact__text">MESSAGE</span>
+							<textarea type="text" class="text__input"></textarea>
+						</div>
+						<div class="content__send"><button class="contact_button">SEND</button></div>
+					</form>
+					<div class="info">
+						<div class="info__text">Have an idea for a project? Just looking to explore and see the possibilities? I'm here to help.
+						</div>
+						<div class="info__name">Postma Elena</div>
+						<div class="info__img">
+							<a class="facebook" href=""></a>
+							<a class="in" href=""></a>
+						</div>
+						<div class="info__mail">e-mail: <p class="bold">postma.elena@gmail.com</p></div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="logo__down">
+					<img src="img/logo_footer.png" alt="" class="logo__img">
+				</div>
+				<div class="footer__menu menu">
+					<a href="" class="menu__button_1">Home</a>
+					<a href="" class="menu__button_1">Facebook</a>
+					<a href="" class="menu__button_1">Linkedin</a>
+					<a href="" class="menu__button_1">Contact</a>
+				</div>
+				<div class="footer__text">
+					© 2022. All Rights Reserved
+				</div>
+			</div>
 		</div>
-		<script src="/js/script.js"></script>
+		<script src="./js/main.js"></script>
 	</body>
 </html>
